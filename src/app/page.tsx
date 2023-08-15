@@ -1,3 +1,10 @@
+import { Content } from "./Content";
+import { Head } from "./Head";
 export default function Page() {
-  return <div className="bg-red-400 h-40 w-40">Sudoku App!</div>;
+  return (
+    <>
+      <Head />
+      <Content />
+    </>
+  );
 }

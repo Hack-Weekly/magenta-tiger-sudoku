@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+// import { Content } from "./Content";
 
 export const metadata = {
   title: "Next.js",
@@ -11,8 +12,8 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="h-full w-full">
+      <body className="h-full w-full">{children}</body>
     </html>
   );
 }
