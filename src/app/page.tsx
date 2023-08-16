@@ -1,10 +1,11 @@
-import { Content } from "./Content";
-import { Head } from "./Head";
+import { Header } from "@/components/layout/header";
+import { Game } from "@/components/game";
+
 export default function Page() {
   return (
     <>
-      <Head />
-      <Content />
+      <Header />
+      <Game />
     </>
   );
 }
