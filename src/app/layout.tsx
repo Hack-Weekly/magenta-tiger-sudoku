@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 
-import { Tektur } from "next/font/google";
+// import { Tektur } from "next/font/google";
 
 export const metadata = {
   title: "Magenta Tigers Sudoku",
