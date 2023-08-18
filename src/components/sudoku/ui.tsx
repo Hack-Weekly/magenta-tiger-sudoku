@@ -2,7 +2,7 @@
  * UI components for the sudoku game.
  */
 
-import type { SudokuBoard } from "./algorithm.ts";
+import type { SudokuBoard } from "./algorithm";
 
 /**
  * Pass props to the {@link Sudoku} component to render a sudoku board.
