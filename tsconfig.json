@@ -45,6 +45,7 @@
     "noEmit": true,
     "incremental": true,
     "jsx": "preserve",
+    "allowImportingTsExtensions": true,
     "plugins": [
       {
         "name": "next"
